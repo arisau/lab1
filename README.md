@@ -1,1 +1,1 @@
-Simple console calculator
+Simple console calculator v0.2
