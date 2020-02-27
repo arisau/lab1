@@ -48,20 +48,26 @@ func (c Calculator) Start(){
 	for true {
 		var modeStr string
 		var a, b float64
-		fmt.Print("A: ")
-		fmt.Scan(&a)
-		fmt.Print("\nB: ")
-		fmt.Scan(&b)
 		fmt.Println("\n 0 - exit \n 1 - sum \n 2 - subtract\n 3 - multiply \n 5 - divide")
+
 		fmt.Scan(&modeStr)
+
 		mode, err := strconv.Atoi(modeStr)
 		if err != nil {
 			fmt.Println("Wrong selection.")
 			continue
 		}
-		switch mode {
-		case 0:
+
+		if mode == 0{
 			os.Exit(0)
+		}
+
+		fmt.Print("A: ")
+		fmt.Scan(&a)
+		fmt.Print("\nB: ")
+		fmt.Scan(&b)
+
+		switch mode {
 		case 1:
 			fmt.Println(c.Sum(a, b))
 			break
