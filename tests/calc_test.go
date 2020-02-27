@@ -1,7 +1,8 @@
 package tests
 
 import (
-	"github.com/arisau/lab1/calc"
+	"github.com/labby11/lab1/calc"
+	"math"
 	"math/rand"
 )
 import "testing"
@@ -66,5 +67,16 @@ func TestDivideZero(t *testing.T){
 	priv, err := c.Divide(a,b)
 	if err == nil{
 		t.Errorf("Private was incorrect, expected error, got %f", priv)
+	}
+}
+
+func TestPow(t *testing.T){
+	c:= initEnv()
+
+	a := rand.Float64()
+	b := rand.Float64()
+	pow:= math.Pow(a,b)
+	if pow != c.Pow(a,b){
+		t.Errorf("Pow was incorrect, got: %f, want: %f.", pow, c.Pow(a,b))
 	}
 }
