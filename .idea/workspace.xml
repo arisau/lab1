@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3224a8d-9165-4706-ab31-99958fb6410c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/calc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/calc_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="a3224a8d-9165-4706-ab31-99958fb6410c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +22,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calc/calc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+            <state relative-caret-position="72">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding>
+                <element signature="e#58#110#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/calc_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            <state relative-caret-position="753">
+              <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+              <folding>
+                <element signature="e#15#94#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +56,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/calc/calc.go" />
+        <option value="$PROJECT_DIR$/../../arisau/lab1/calc/calc.go" />
         <option value="$PROJECT_DIR$/tests/calc_test.go" />
       </list>
     </option>
@@ -110,13 +116,20 @@
     </option>
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3224a8d-9165-4706-ab31-99958fb6410c" name="Default Changelist" comment="" />
+      <created>1582800323611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582800323611</updated>
+    </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49693877" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Team" order="2" sideWeight="0.50306123" side_tool="true" visible="true" weight="0.24969475" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -138,6 +151,9 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -146,17 +162,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../arisau/lab1/calc/calc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1992">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calc/calc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        <state relative-caret-position="72">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#58#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/calc_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        <state relative-caret-position="753">
+          <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+          <folding>
+            <element signature="e#15#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
