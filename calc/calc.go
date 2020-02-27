@@ -36,7 +36,7 @@ func (c Calculator)  Multiply(a,b float64) float64{
 // Divides a by b
 func (c Calculator) Divide(a,b float64) (float64, error) {
 	if b == 0{
-		return -1 , errors.New("Cannot divide by 0")
+		return -1 , errors.New("cannot divide by 0")
 	}
 	return a/b, nil
 }
