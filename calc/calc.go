@@ -4,6 +4,7 @@ package calc
 import (
 	"errors"
 	"fmt"
+	"math"
 	"os"
 	"strconv"
 )
@@ -41,6 +42,10 @@ func (c Calculator) Divide(a,b float64) (float64, error) {
 	return a/b, nil
 }
 
+func (c Calculator) Pow(a,b float64) float64{
+	return math.Pow(a,b)
+}
+
 // Starts calculator instance
 func (c Calculator) Start(){
 
@@ -48,20 +53,26 @@ func (c Calculator) Start(){
 	for true {
 		var modeStr string
 		var a, b float64
-		fmt.Print("A: ")
-		fmt.Scan(&a)
-		fmt.Print("\nB: ")
-		fmt.Scan(&b)
 		fmt.Println("\n 0 - exit \n 1 - sum \n 2 - subtract\n 3 - multiply \n 5 - divide")
+
 		fmt.Scan(&modeStr)
+
 		mode, err := strconv.Atoi(modeStr)
 		if err != nil {
 			fmt.Println("Wrong selection.")
 			continue
 		}
-		switch mode {
-		case 0:
+
+		if mode == 0{
 			os.Exit(0)
+		}
+
+		fmt.Print("A: ")
+		fmt.Scan(&a)
+		fmt.Print("\nB: ")
+		fmt.Scan(&b)
+
+		switch mode {
 		case 1:
 			fmt.Println(c.Sum(a, b))
 			break
@@ -78,6 +89,9 @@ func (c Calculator) Start(){
 				break
 			}
 			fmt.Println(res)
+			break
+		case 5:
+			fmt.Println(c.Pow(a,b))
 			break
 		default:
 			fmt.Println("Wrong selection.")
